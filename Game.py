@@ -15,7 +15,7 @@ screen_height = 400 + bottom_pannel
 screen = pygame.display.set_mode((screen_width,screen_height))
 pygame.display.set_caption('Battle')
 
-#load images test4
+#load images
 
 #background image
 background_img = pygame.image.load('img/Background/background.png').convert_alpha()
