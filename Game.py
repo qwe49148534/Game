@@ -47,7 +47,7 @@ class Fighter():
     def draw(self):
         screen.bilt(self.image, self.rect)
 
-knight = Fighter( 200, 260,'Knight' , 30, 10, 3)
+Knight = Fighter( 200, 260,'Knight' , 30, 10, 3)
 
 run = True
 while run:
@@ -61,7 +61,7 @@ while run:
     draw_panel()
 
     #draw fighter
-    knight.draw()
+    Knight.draw()
 
     for event in pygame.event.get():
         if event.type == QUIT:
